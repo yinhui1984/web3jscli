@@ -2,7 +2,7 @@
 
 #check local port 8545 is running or not
 
-rpc="http://localhost:8545"
+rpc="http://127.0.0.1:8545"
 
 if [ -z "$(lsof -i:8545)" ]; then
     echo "local endpoint (:8545) is not running"
